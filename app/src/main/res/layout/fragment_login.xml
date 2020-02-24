@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#41A5EE"
+    android:padding="10dp"
+    tools:context=".frag.fragment.LoginFragment">
+
+   <EditText
+       android:id="@+id/edtLogin"
+       android:hint="Email"
+       android:textColor="#ffffff"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <EditText
+       android:id="@+id/edtPassword"
+       android:hint="password"
+       android:textColor="#ffffff"
+       android:layout_marginTop="15dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:id="@+id/btnLogin"
+       android:text="Login"
+       android:textColor="#ffffff"
+       android:textAllCaps="false"
+       android:background="#103F91"
+       android:layout_marginTop="15dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+</LinearLayout>
